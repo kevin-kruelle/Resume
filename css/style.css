@@ -1,0 +1,156 @@
+body {
+    margin: 0 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#background-img {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    top: .5rem;
+    left: 1rem;
+    box-shadow: none;
+}
+
+h1 {
+    font-family:
+}
+
+.header {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+
+
+#profile-pic {
+    margin-bottom: 5%;
+}
+
+#linked-in {
+    border: 1.4px solid black;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+
+#linked-in:hover {
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+#resource-section {
+    text-align: center;
+}
+
+.image-resize {
+    height: 275px;
+    width: 400px;
+    margin: 5px;
+}
+
+.paragraph-spacing {
+    margin-bottom: 4rem;
+}
+
+#resources-nav {
+    margin: 3rem 0;
+}
+
+#resources-header {
+    margin-bottom: 3rem;
+}
+
+img {
+    border-radius: 7px;
+    box-shadow: 0 0 5px 1px rgba(128, 126, 126, 0.5);
+    margin-bottom: -20px;
+}
+
+#index-logo {
+    height: 95vh;
+    box-shadow: none;
+}
+
+section {
+    border-bottom: 2px dotted grey;
+}
+
+#nav {
+    width: 65%;
+    padding: 8px 5px;
+    margin: 2rem auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.tab {
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 4px;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: rgba(237, 218, 49, 0.938);
+}
+
+.list {
+    list-style-type: disc;
+}
+
+div {
+    margin: 5% 0;
+}
+
+section {
+    margin: 5% 0;
+}
+
+.bio {
+    margin: 5% 0;
+}
+
+#border-bottom {
+    border-bottom: 1px solid;
+}
+
+
+textarea {
+    width: 90%;
+    height: 200px;
+    bord
+}
+
+fieldset {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(201, 201, 201);
+}
+
+#fname, #lname, #phone-number, #email, #comment {
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+.col-50 {
+    display: inline-block;
+    width: 40%;
+    margin-right: -4px;
+}
+.col-50:first-child {
+    margin-right: calc(6% - 2px);
+    margin-bottom: 0;
+}
+
