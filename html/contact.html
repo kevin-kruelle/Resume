@@ -35,8 +35,9 @@
 
                 <div class="col-50">
                     <label for="phone-number">Contact phone number:</label>
-                    <input type="tel" id="phone-number" name="user_number" required><br>
-
+                    <input type="tel" id="phone-number" name="user_number" pattern="[0-9] {3}-[0-9]{3}-[0-9]{4}" placeholder="***-***-****" required><br>
+                </div>
+                <div class="col-50">
                     <label>Phone number type:</label><br>
                     <input type="radio" id="landline" name="phonetype" required>
                     <label for="landline" class="light">Landline</label><br>
